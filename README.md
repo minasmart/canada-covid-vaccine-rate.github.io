@@ -16,7 +16,7 @@ rate, which will hopefully happen</b>. They are meant to show how we're
 doing, and to encourage people to reach out to their MP and MPP and talk
 about why we need to do this faster.
 
-## Your math is wrong! This is all wrong! Fix it!
+## "Your math is wrong!" "I don't like this" "Oh the humanity!" and other criticisms
 
 You're probably right! This page is hosted by github. You can <a href="https://github.com/minasmart/canada-covid-vaccine-rate.github.io">
 read my code and suggest changes here</a>.
