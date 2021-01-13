@@ -1,6 +1,34 @@
 <template>
   <div id="app">
-    <p>These calculations assume 2 doses per person and use backward facing data. There are many projections assuming administration will speed up (it probably will), but who knows by how much. These calculations are based on backward looking averages and projecting forward assuming we're on a steady state from the last two weeks.</p>
+    <h1>Canada Covid-19 Vaccination Rates</h1>
+    <p>
+      A backwards looking simple projection based on the shared provincial
+      vaccination rates published and shared by the <a href="https://github.com/ccodwg/Covid19Canada">
+      COVID-19 Canada Open Data Working Group</a>.
+    </p>
+    <h2>How's it work?</h2>
+    <p>
+      Data is pulled from the <a href="https://github.com/ccodwg/Covid19Canada">
+      CCODWG Github Page</a> and is manipulated by some simple javascript. These
+      projections are kludgey. They are only based on the rolling average of
+      vaccination rates over the past two weeks, the 2020 Canadian census
+      population data, 2 doses per person, and the number of people currently
+      vaccinated. <b>These numbers do not account for any uptick in vaccination
+      rate, which will hopefully happen</b>. They are meant to show how we're
+      doing, and to encourage people to reach out to their MP and MPP and talk
+      about why we need to do this faster.
+    </p>
+    <h2>Your math is wrong! This is all wrong! Fix it!</h2>
+    <p>
+      You're probably right! This page is hosted by github. You can <a href="https://github.com/minasmart/canada-covid-vaccine-rate.github.io">
+      read my code and suggest changes here</a>.
+    </p>
+    <h2>Warranties</h2>
+    <p>
+      There are none. This is bad math. Don't trust it. Do your own research and
+      calculations. The data here is presented with no warranties or guarantees
+      in regard to accuracy or representation.
+    </p>
     <hr />
     <div id="province-list">
       <div

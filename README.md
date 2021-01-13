@@ -1,11 +1,28 @@
-# canada-covid-vaccine-rate.github.io
+# Canada Covid-19 Vaccination Rates
 
-I got really bored so I built a COVID vaccine tracker for Canada showing how long it'll take for us to get vaccinated. My math might be kind bad, but it looks okay from here.
+A backwards looking simple projection based on the shared provincial
+vaccination rates published and shared by the <a href="https://github.com/ccodwg/Covid19Canada">
+COVID-19 Canada Open Data Working Group</a>.
 
-The math in here is based on 2 doses per person.
+## How's it work?
 
-Province populations are static based on 2020 census data.
+Data is pulled from the <a href="https://github.com/ccodwg/Covid19Canada">
+CCODWG Github Page</a> and is manipulated by some simple javascript. These
+projections are kludgey. They are only based on the rolling average of
+vaccination rates over the past two weeks, the 2020 Canadian census
+population data, 2 doses per person, and the number of people currently
+vaccinated. <b>These numbers do not account for any uptick in vaccination
+rate, which will hopefully happen</b>. They are meant to show how we're
+doing, and to encourage people to reach out to their MP and MPP and talk
+about why we need to do this faster.
 
-Covid-19 administration data is pulled from [here](https://github.com/ccodwg/Covid19Canada).
+## Your math is wrong! This is all wrong! Fix it!
 
-This whole thing is built with NO WARRANTY OR GUARANTEES! I mostly wanted to see if I could learn vue in a rudimentary way while I was sorta under the weather.
+You're probably right! This page is hosted by github. You can <a href="https://github.com/minasmart/canada-covid-vaccine-rate.github.io">
+read my code and suggest changes here</a>.
+
+## Warranties
+
+There are none. This is bad math. Don't trust it. Do your own research and
+calculations. The data here is presented with no warranties or guarantees
+in regard to accuracy or representation.
