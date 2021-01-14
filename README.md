@@ -1,4 +1,6 @@
-# Canada Covid-19 Vaccination Rates
+# Unofficial Canada Covid-19 Vaccination Rates
+
+[Click Here to see the project in action](https://minasmart.github.io/canada-covid-vaccine-rate.github.io/)
 
 A backwards looking simple projection based on the shared provincial
 vaccination rates published and shared by the <a href="https://github.com/ccodwg/Covid19Canada">
