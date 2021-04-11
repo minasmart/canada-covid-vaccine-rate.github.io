@@ -59,7 +59,7 @@ export default {
       const remainingDoses = getDosesRemaining(provinceData, percentage);
       const averageAdministrationRate = getAverageAdministrationRate(provinceData, 14);
       const totalDays = remainingDoses / averageAdministrationRate;
-      const years = totalDays / 365 - 0.5;
+      const years = totalDays / 365;
       const months = totalDays % 365 / 30 - 0.5;
       const weeks = totalDays % 365 % 30 / 7 - 0.5;
       const days = totalDays % 365 % 30 % 7 - 0.5;
